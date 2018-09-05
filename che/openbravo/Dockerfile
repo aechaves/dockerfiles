@@ -17,5 +17,5 @@ RUN mkdir /home/user/tomcat7 && \
 RUN sudo apt-get -qq update
 RUN sudo apt-get -y -q install curl
 RUN sudo apt-get -y -q install mercurial
-RUN sudo apt-get -y -q install vi
+RUN sudo apt-get -y -q install vim
 RUN sudo apt-get -y -q install nano
