@@ -14,8 +14,8 @@ RUN mkdir /home/user/tomcat7 && \
     sudo chgrp -R 0 ${HOME} && \
     sudo chmod -R g+rwX ${HOME}
 
-RUN apt-get -qq update
-RUN apt-get -y -q install curl
-RUN apt-get -y -q install mercurial
-RUN apt-get -y -q install vi
-RUN apt-get -y -q install nano
+RUN sudo apt-get -qq update
+RUN sudo apt-get -y -q install curl
+RUN sudo apt-get -y -q install mercurial
+RUN sudo apt-get -y -q install vi
+RUN sudo apt-get -y -q install nano
